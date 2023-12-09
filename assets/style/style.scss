@@ -35,6 +35,7 @@ body {
         width: 100%;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding: 0.8rem 0;
         .question-elem {
           width: 75%;
@@ -42,6 +43,15 @@ body {
           font-weight: 600;
         }
       }
+      .answer {
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 0.8rem;
+        line-height: 1.3rem;
+      }
+    }
+    .question-container:nth-child(5) {
+      border: none;
     }
   }
   .attribution {
