@@ -4,3 +4,53 @@ $grayish-purple: #8c6991;
 $dark-purple: #2f1533;
 // FONTS
 $font-work-sans: "Work Sans", sans-serif;
+
+body {
+  font-family: $font-work-sans;
+  background-image: url(../images/background-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: $light-pink;
+  color: $dark-purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .container {
+    margin-top: 9rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    width: 85%;
+    .title-container {
+      display: flex;
+      img {
+        width: 1.5rem;
+        margin-right: 1.5rem;
+      }
+    }
+    .question-container {
+      border-bottom: 1px solid $light-pink;
+      .question {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.8rem 0;
+        .question-elem {
+          width: 75%;
+          font-size: 14px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .attribution {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 1rem;
+  }
+}
+
+.hidden {
+  display: none;
+}
