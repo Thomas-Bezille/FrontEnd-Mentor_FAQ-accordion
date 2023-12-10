@@ -60,4 +60,13 @@ body .attribution {
 
 .hidden {
   display: none;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    background-image: url(../images/background-pattern-desktop.svg);
+  }
+  body .container {
+    width: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */
