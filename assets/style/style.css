@@ -39,14 +39,17 @@ body .container .question-container .question .question-elem {
   font-size: 14px;
   font-weight: 600;
 }
+body .container .question-container .question .question-elem:hover {
+  color: #ad28eb;
+}
 body .container .question-container .answer {
   font-size: 14px;
   font-weight: 300;
   margin-bottom: 0.8rem;
   line-height: 1.3rem;
+  color: #2f1533;
 }
 body .container .question-container:hover {
-  color: #ab27e9;
   cursor: pointer;
 }
 body .container .question-container:nth-child(5) {

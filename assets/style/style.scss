@@ -42,16 +42,19 @@ body {
           font-size: 14px;
           font-weight: 600;
         }
+        .question-elem:hover {
+          color: #ad28eb;
+        }
       }
       .answer {
         font-size: 14px;
         font-weight: 300;
         margin-bottom: 0.8rem;
         line-height: 1.3rem;
+        color: $dark-purple;
       }
     }
     .question-container:hover {
-      color: #ab27e9;
       cursor: pointer;
     }
     .question-container:nth-child(5) {
