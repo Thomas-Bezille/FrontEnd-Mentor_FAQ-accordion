@@ -3,8 +3,13 @@ const app = {
     const questions = document.querySelectorAll(".question-container");
     for (const question of questions) {
       question.addEventListener("click", (event) => {
-        app.hideAnswerElem();
-        app.handleClickQuestion(event);
+        const response = event.currentTarget.querySelector(".answer");
+        if (response.classList.contains("hidden")) {
+          app.hideAnswerElem();
+          app.handleClickQuestion(event);
+        } else {
+          app.handleClickQuestion(event);
+        }
       });
     }
   },
@@ -20,14 +25,15 @@ const app = {
     const answers = document.querySelectorAll(".answer");
     const iconsPlus = document.querySelectorAll(".plus");
     const iconsMinus = document.querySelectorAll(".minus");
+
     for (const answer of answers) {
       answer.classList.add("hidden");
-      for (const iconPlus of iconsPlus) {
-        iconPlus.classList.remove("hidden");
-        for (const iconMinus of iconsMinus) {
-          iconMinus.classList.add("hidden");
-        }
-      }
+    }
+    for (const iconPlus of iconsPlus) {
+      iconPlus.classList.remove("hidden");
+    }
+    for (const iconMinus of iconsMinus) {
+      iconMinus.classList.add("hidden");
     }
   },
 };
