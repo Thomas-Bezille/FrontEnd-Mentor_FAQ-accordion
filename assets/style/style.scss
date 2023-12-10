@@ -42,13 +42,20 @@ body {
           font-size: 14px;
           font-weight: 600;
         }
+        .question-elem:hover {
+          color: #ad28eb;
+        }
       }
       .answer {
         font-size: 14px;
         font-weight: 300;
         margin-bottom: 0.8rem;
         line-height: 1.3rem;
+        color: $dark-purple;
       }
+    }
+    .question-container:hover {
+      cursor: pointer;
     }
     .question-container:nth-child(5) {
       border: none;
@@ -64,3 +71,5 @@ body {
 .hidden {
   display: none;
 }
+
+@import "_media-queries.scss";
