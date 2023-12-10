@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - [Github](https://github.com/Thomas-Bezille/FrontEnd-Mentor_FAQ-accordion)
-- [Live](https://your-live-site-url.com)
+- [Live](https://front-end-mentor-faq-accordion-peach.vercel.app/)
 
 ## My process
 
@@ -46,4 +46,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@Thomas-Bezille](https://www.frontendmentor.io/profile/Thomas-Bezille)
-- Twitter - [@yourusername](https://twitter.com/ThomasBzie)
+- Twitter - [@ThomasBzie](https://twitter.com/ThomasBzie)
