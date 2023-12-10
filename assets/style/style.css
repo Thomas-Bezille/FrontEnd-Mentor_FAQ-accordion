@@ -45,6 +45,10 @@ body .container .question-container .answer {
   margin-bottom: 0.8rem;
   line-height: 1.3rem;
 }
+body .container .question-container:hover {
+  color: #ab27e9;
+  cursor: pointer;
+}
 body .container .question-container:nth-child(5) {
   border: none;
 }

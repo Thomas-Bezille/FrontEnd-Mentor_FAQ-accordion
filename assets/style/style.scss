@@ -50,6 +50,10 @@ body {
         line-height: 1.3rem;
       }
     }
+    .question-container:hover {
+      color: #ab27e9;
+      cursor: pointer;
+    }
     .question-container:nth-child(5) {
       border: none;
     }
