@@ -13,6 +13,11 @@ const app = {
       });
     }
   },
+
+  /**
+   * Adds or removes the hidden class depending on whether it is present or not
+   * @param {*} event The event of clicking on a question
+   */
   handleClickQuestion: function (event) {
     const response = event.currentTarget.querySelector(".answer");
     const iconPlus = event.currentTarget.querySelector(".plus");
@@ -21,6 +26,10 @@ const app = {
     iconPlus.classList.toggle("hidden");
     iconMinus.classList.toggle("hidden");
   },
+
+  /**
+   * Resets display
+   */
   hideAnswerElem: function () {
     const answers = document.querySelectorAll(".answer");
     const iconsPlus = document.querySelectorAll(".plus");
